@@ -19,7 +19,7 @@ Una plataforma de investigación financiera de nivel institucional que combina i
 - **Búsqueda Web Especializada**: Motor de búsqueda Tavily optimizado para investigación financiera
 
 ### 🧠 **Sistema de IA Institucional**
-- **Modelos Especializados**: DeepSeek R1 para análisis y Qwen 2.5 para generación de contenido
+- **Modelos Especializados**: DeepSeek R1 para análisis y Gemma 3 para generación de contenido
 - **Análisis de Brechas Inteligente**: Detección automática de información faltante
 - **Procesamiento Iterativo**: Refinamiento continuo de la investigación
 - **Generación de Reportes**: Documentos de inversión de calidad institucional
@@ -136,7 +136,7 @@ graph TD
 ```bash
 # Instalar modelos especializados
 ollama pull deepseek-r1:8b      # Modelo de análisis y planificación
-ollama pull qwen2.5:7b          # Modelo de generación de contenido
+ollama pull gemma3:12b          # Modelo de generación de contenido
 ```
 
 #### **APIs Externas**
@@ -157,7 +157,7 @@ CORS_ORIGINS=http://localhost:3000,https://yourdomain.com
 # Configuración de Ollama
 OLLAMA_BASE_URL=http://localhost:11434
 THINKING_MODEL=deepseek-r1:8b
-GENERATING_MODEL=qwen2.5:7b
+GENERATING_MODEL=gemma3:12b
 CONTENT_GENERATOR_MAX_TOKENS=5000
 
 # APIs de Datos Financieros
@@ -225,7 +225,7 @@ ollama list
 
 # Verificar modelos instalados
 ollama show deepseek-r1:8b
-ollama show qwen2.5:7b
+ollama show gemma3:12b
 ```
 
 ## 📊 **Uso del Sistema**
