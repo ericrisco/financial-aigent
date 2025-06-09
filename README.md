@@ -195,7 +195,7 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
 
 #### **1. Clonación del Repositorio**
 ```bash
-git clone https://github.com/your-username/financial-aigent.git
+git clone https://github.com/ericrisco/financial-aigent
 cd financial-aigent
 ```
 
